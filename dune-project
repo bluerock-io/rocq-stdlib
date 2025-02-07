@@ -50,6 +50,7 @@ set of modules usually bound to the Stdlib.* namespace."))
 
 (package
  (name rocq-stdlib-doc)
+ (allow_empty)
  (license "OPUBL-1.0")
  (depends
   (conf-python-3 :build)
